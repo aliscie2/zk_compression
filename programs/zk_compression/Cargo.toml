@@ -21,7 +21,11 @@ custom-panic = []
 
 
 [dependencies]
-anchor-lang = "0.32.1"
+anchor-lang = "0.31.1"
+light-hasher = { version = "5.0.0", features = ["solana"] }
+light-sdk = { version = "0.17.1", features = ["anchor"] }
+light-sdk-types = { version = "0.17.1", features = ["anchor"] }
+light-merkle-tree-reference = "4.0.0"
 
 
 [lints.rust]
